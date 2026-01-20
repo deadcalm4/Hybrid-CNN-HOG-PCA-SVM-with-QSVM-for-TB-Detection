@@ -1,0 +1,8 @@
+Configuration,PCA,Segmentation,Dataset,Accuracy
+CNN only,-,No,Full,96.5
+HOG only,-,No,Full,97.4
+CNN + HOG,-,No,Full,97.9
+CNN + HOG,32,Yes,Full,97.6
+CNN + HOG,64,Yes,Full,98.29
+CNN + HOG,64,No,Full,98.14
+QSVM (hybrid),32,Yes,Subset-300,50.67
